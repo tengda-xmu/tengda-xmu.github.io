@@ -1,0 +1,47 @@
+name: 腾达
+name_en: Da Teng
+position: 助理教授 · 硕士生导师
+university: 厦门大学
+school: 航空航天学院
+education: 西北工业大学 · 博士
+email: tengda@xmu.edu.cn
+office: 厦门大学航空航天学院大楼387室（新工科大楼705室）
+phone: "16622978721"
+phone_note: 微信同号
+portrait: /assets/img/da-teng.png
+statement: 人工智能驱动的航空装备可靠性设计与运维
+links:
+  - title: Google Scholar
+    url: https://scholar.google.com.hk/citations?user=WE9jmtMAAAAJ&hl=zh-CN
+  - title: ResearchGate
+    url: https://www.researchgate.net/profile/Da-Teng-6?ev=hdr_xprf
+  - title: 团队主页
+    url: https://isc.xmu.edu.cn
+honors:
+  - title: IEEE Senior Member
+    detail: IEEE 高级会员
+  - title: 福建省高层次人才
+    detail: B 类
+  - title: 厦门市高层次人才
+    detail: B 类
+appointments:
+  - organization: Electronics Letters
+    role: 副主编
+    type: 期刊服务
+  - organization: 海军航空大学学报
+    role: 青年编委
+    type: 期刊服务
+  - organization: 中国航空学会民用飞机运行支持技术分会
+    role: 委员
+    type: 学术组织
+  - organization: 厦大创新研究院
+    role: 兼职研究员
+    type: 科研任职
+collaborators:
+  - 中国航发商发
+  - 中国航发608所
+  - 中国航发624所
+  - 商飞客服
+  - 商飞软件
+  - 国航
+  - 珠海通飞

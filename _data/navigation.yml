@@ -1,17 +1,19 @@
 main:
-
-  - title: "Teaching"
-    url: teaching/
-    right: true 
-
-  - title: "Services"
-    url: services/
-
-  - title: "Group"
-    url: research-group/
-
-  - title: "Publications"
-    url: publications/
-
-  - title: "Home"
-    url: 
+  - title: 首页
+    url: /
+    key: home
+  - title: 研究方向
+    url: /research/
+    key: research
+  - title: 论文与成果
+    url: /publications/
+    key: publications
+  - title: 科研项目
+    url: /projects/
+    key: projects
+  - title: 人才培养
+    url: /teaching/
+    key: teaching
+  - title: 学术服务
+    url: /services/
+    key: services

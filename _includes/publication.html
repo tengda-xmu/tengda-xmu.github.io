@@ -1,0 +1,6 @@
+<li class="paper-entry"{% unless include.compact %} id="{{ include.paper.id }}" data-filter-item data-role="{{ include.paper.role_key }}" data-year="{{ include.paper.year }}"{% endunless %}>
+  {{ include.paper.authors | escape | replace: 'Teng D', '<strong>Teng D</strong>' | replace: '腾达', '<strong>腾达</strong>' }}.
+  {% if include.compact %}<a href="{{ '/publications/' | relative_url }}#{{ include.paper.id }}">{{ include.paper.title | escape }}</a>{% else %}{{ include.paper.title | escape }}{% endif %}.
+  <em>{{ include.paper.journal | escape }}</em>, {{ include.paper.year }}, {{ include.paper.details | escape }}.
+  （{{ include.paper.role }}）{% unless include.compact %}<small><a href="{{ include.paper.search_url | escape }}" target="_blank" rel="noopener noreferrer">[学术检索]</a></small>{% endunless %}
+</li>

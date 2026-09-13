@@ -1,0 +1,6 @@
+{%- for partner in site.data.profile.collaborators -%}
+  {%- unless forloop.first -%}
+    {%- if forloop.last -%}及{%- else -%}、{%- endif -%}
+  {%- endunless -%}
+  {{- partner | escape -}}
+{%- endfor -%}

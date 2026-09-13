@@ -1,0 +1,6 @@
+{%- assign publication_years = site.data.publications | map: 'year' | uniq | sort | reverse -%}
+{%- assign ordered_publications = '' | split: ',' -%}
+{%- for publication_year in publication_years -%}
+  {%- assign publications_for_year = site.data.publications | where: 'year', publication_year -%}
+  {%- assign ordered_publications = ordered_publications | concat: publications_for_year -%}
+{%- endfor -%}

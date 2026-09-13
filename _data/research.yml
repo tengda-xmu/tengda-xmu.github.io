@@ -1,0 +1,62 @@
+- id: maintenance
+  number: "01"
+  short: 航空智能运维
+  english: Intelligent Maintenance
+  title: AI 驱动的飞机/航空发动机智能运维
+  display_title: 航空智能运维
+  context_lines: [AI 驱动, 飞机与航空发动机]
+  focus: 健康状态评估、性能退化与故障预测、故障诊断、维修决策及运维智能体构建
+  core_points:
+    - AI 驱动的飞机与航空发动机健康状态评估、性能退化与故障预测
+    - 面向航空运维的故障诊断、维修决策与智能体构建
+  summary: 从健康状态感知到维修决策，探索航空装备运维的智能化方法。
+  introduction: 面向飞机与航空发动机，研究 AI 驱动的健康状态评估、性能退化与故障预测、故障诊断及维修决策，构建运维智能体。
+  keywords: [健康状态评估, 故障预测与诊断, 运维智能体]
+  topics:
+    - title: 健康状态与性能退化
+      text: 健康状态评估、性能退化预测与剩余使用寿命预测。
+    - title: 故障诊断与维修决策
+      text: 故障预测、故障诊断、维修决策及维修任务规划。
+    - title: 航空数据与智能体
+      text: 多源异构数据表征与动态融合、航空数据智能分析、运维智能体构建。
+- id: generative-design
+  number: "02"
+  short: 结构生成式设计
+  english: Generative Design
+  title: 大模型驱动的结构生成式设计与可靠性优化
+  display_title: 结构生成式设计
+  context_lines: [大模型驱动, 可靠性优化]
+  focus: 生成式结构设计、多学科优化、可靠性分析与可靠性设计
+  core_points:
+    - 大模型驱动的结构生成式设计与多学科优化
+    - 结构可靠性分析与可靠性优化设计
+  summary: 将生成式方法与可靠性分析相结合，服务航空结构的设计与优化。
+  introduction: 以大模型驱动结构生成式设计，结合多学科优化与可靠性分析，开展可靠性设计与优化。
+  keywords: [生成式结构设计, 多学科优化, 可靠性优化]
+  topics:
+    - title: 生成式结构设计
+      text: 生成式结构设计、生成对抗代理建模与设计参数求解。
+    - title: 多学科与多目标优化
+      text: 面向气动、热、结构等耦合问题，开展多学科、多目标可靠性设计。
+    - title: 可靠性分析与优化
+      text: 智能代理建模、可靠性分析与可靠性优化。
+- id: fatigue
+  number: "03"
+  short: 疲劳与可靠性
+  english: Fatigue & Reliability
+  title: 结构疲劳与可靠性设计
+  display_title: 结构疲劳与可靠性设计
+  focus: 疲劳寿命预测、疲劳失效建模、疲劳可靠性分析及可靠性优化设计
+  core_points:
+    - 航空结构疲劳失效建模与寿命预测
+    - 疲劳可靠性分析与优化设计
+  summary: 关注复杂结构的疲劳失效与服役可靠性，连接寿命预测和优化设计。
+  introduction: 研究结构疲劳寿命预测与疲劳失效建模，开展疲劳可靠性分析及可靠性优化设计。
+  keywords: [疲劳寿命预测, 失效建模, 可靠性优化]
+  topics:
+    - title: 疲劳寿命与失效建模
+      text: 疲劳寿命预测、疲劳失效建模与复杂结构失效分析。
+    - title: 多失效模式可靠性
+      text: 多失效模式相关性、结构动态可靠性及多目标可靠性评估。
+    - title: 轻量化与可靠性设计
+      text: 涡轮整体叶盘等航空结构的轻量化疲劳可靠性设计与可靠性优化。

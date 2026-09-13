@@ -1,0 +1,56 @@
+---
+- title: 第十二届机械工程与航空航天工程国际会议（MEAE 2026）
+  city: 西安
+  date: '2026.11'
+  role: Chair
+  organizing: true
+- title: 第四届应用统计、建模与先进算法国际学术会议（ASMA 2026）
+  city: 厦门
+  date: '2026.10'
+  role: 组织委员会主席
+  organizing: true
+- title: 第二届光电学、计算机科学与算法国际会议（OCSA 2026）
+  city: 郑州
+  date: '2026.09'
+  role: Chair
+  organizing: true
+- title: 全国固体力学大会
+  city: 天津
+  date: '2026.08'
+  role: 报告交流
+  organizing: false
+- title: 第八届系统可靠性与安全工程国际会议
+  city: 西安
+  date: '2026.08'
+  role:
+  organizing: false
+- title: 中国航空学会第十一次会员代表大会
+  city: 北京
+  date: '2026.06'
+  role: 会员代表
+  organizing: false
+- title: 第十届全国复合材料力学与工程研讨会
+  city: 上海
+  date: '2026.05'
+  role:
+  organizing: false
+- title: 第七届全国复合材料结构力学青年科学家论坛
+  city: 青岛
+  date: '2026.04'
+  role:
+  organizing: false
+- title: 第五届人工智能、机器人与通信国际会议（ICAIRC 2025）
+  city: 厦门
+  date: '2025.11'
+  role:
+  organizing: false
+- title: 融合创新多功能材料与计算力学高端学术研讨会
+  city: 青岛
+  date: '2025.10'
+  role: 邀请报告
+  organizing: false
+- title: 青岛民航飞机维修新技术应用与创新创效研讨会
+  city: 青岛
+  date: '2025.09'
+  role:
+  organizing: false
