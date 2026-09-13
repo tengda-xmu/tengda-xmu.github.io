@@ -67,14 +67,14 @@ Gemfile 中的 tzinfo 与 tzinfo-data 用于 Windows 下的 Asia/Shanghai 时区
 
 ## 发布配置
 
-`_config.yml` 按当前 GitHub 仓库的项目站点路径设置：
+`_config.yml` 按目标访问地址 `https://tengda.github.io` 的用户或组织主页路径设置：
 
 ```yaml
-url: https://tengda-xmu.github.io
-baseurl: /tengda.github.io
+url: https://tengda.github.io
+baseurl: ''
 ```
 
-这是部署配置，不能据此判断公开站点已经发布。更换仓库名称、用户主页仓库或自定义域名时，需要相应修改。模板中的链接、图标、照片、canonical 和 sitemap 均使用 Jekyll URL 过滤器适配子目录路径。
+按照 [GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)，该地址要求拥有 `tengda` 用户或组织，并使用其名下的 `tengda/tengda.github.io` 仓库发布。目标账号及仓库的写权限尚待确认；配置就绪不代表站点已经发布。模板中的链接、图标、照片、canonical 和 sitemap 均使用 Jekyll URL 过滤器适配站点路径。
 
 旧 `html_source_file` 快照、旧研究组页、旧资源和独立 Scholar 爬虫从构建产物中排除。爬虫未接入此主页；继承的爬虫工作流不属于网站运行依赖。
 

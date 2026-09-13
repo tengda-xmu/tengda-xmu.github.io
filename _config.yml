@@ -1,9 +1,9 @@
 title: 腾达
 lang: zh-CN
 description: 腾达，厦门大学航空航天学院助理教授、硕士生导师。研究方向包括航空智能运维、结构生成式设计、结构疲劳与可靠性设计。
-# Default path for this GitHub Pages project repository. Local preview overrides it.
-url: https://tengda-xmu.github.io
-baseurl: /tengda.github.io
+# Target user site; publishing requires access to tengda/tengda.github.io.
+url: https://tengda.github.io
+baseurl: ''
 timezone: Asia/Shanghai
 encoding: UTF-8
 markdown: kramdown
