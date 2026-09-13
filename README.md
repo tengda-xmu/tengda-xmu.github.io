@@ -74,7 +74,7 @@ url: https://tengda-xmu.github.io
 baseurl: ''
 ```
 
-按照 [GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)，使用该根域名发布须将现有仓库 `tengda-xmu/tengda.github.io` 改名为 `tengda-xmu/tengda-xmu.github.io`，再启用 GitHub Pages。仓库改名尚待确认，发布尚未完成；配置就绪或代码同步不代表站点已经发布。模板中的链接、图标、照片、canonical 和 sitemap 均使用 Jekyll URL 过滤器适配站点路径。
+代码仓库为 [tengda-xmu/tengda-xmu.github.io](https://github.com/tengda-xmu/tengda-xmu.github.io)。GitHub Pages 在 Settings → Pages 中选择 `Deploy from a branch`，部署分支为 `main`，目录为 `/(root)`；参见 [GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。模板中的链接、图标、照片、canonical 和 sitemap 均使用 Jekyll URL 过滤器适配站点路径。
 
 旧 `html_source_file` 快照、旧研究组页、旧资源和独立 Scholar 爬虫从构建产物中排除。爬虫未接入此主页；继承的爬虫工作流不属于网站运行依赖。
 
